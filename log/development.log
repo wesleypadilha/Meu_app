@@ -5929,3 +5929,13 @@ Processing by MainController#index as HTML
 Completed 200 OK in 129ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 16692)
 
 
+Started GET "/" for ::1 at 2024-04-22 18:18:33 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+  Rendered shared/_navbar.html.erb (Duration: 2.3ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 56.6ms | Allocations: 3471)
+Completed 200 OK in 67ms (Views: 61.8ms | ActiveRecord: 0.0ms | Allocations: 4662)
+
+

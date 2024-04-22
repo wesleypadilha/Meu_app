@@ -71,3 +71,5 @@ end
 gem 'pagy'
 
 gem 'webpacker'
+
+gem 'will_paginate', '~> 3.3', :require => nil

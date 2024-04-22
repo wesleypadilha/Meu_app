@@ -1,5 +1,62 @@
-<p style="color: green"><%= notice %></p>
-
-<div>
-  <h1>Bem vindo ao Blog</h1>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo ao Blog</title>
+  <style>
+    body {
+      background-color: #f0f0f0; /* Cor de fundo da página */
+      color: green; /* Cor do texto */
+    }
+    .container {
+      text-align: center; /* Alinha o conteúdo no centro da página */
+      margin-top: 50px; /* Margem superior para centralizar verticalmente */
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .explore-text {
+      font-size: 14px; /* Tamanho de fonte menor para o texto de exploração */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Bem-vindo ao BlogMaino</h1>
+        <p class="explore-text">Explore nossos últimos posts aqui</p>
+      </div>
+      <div class="col-md-6">
+        <!-- Adicione o código dos 'posts' aqui -->
+        <div class="post">
+          <h2>Post 1</h2>
+          <p>Conteúdo do Post 1...</p>
+          <a href="/posts/1">Ver Post</a> <!-- Link de exemplo para o primeiro post -->
+        </div>
+        <div class="post">
+          <h2>Post 2</h2>
+          <p>Conteúdo do Post 2...</p>
+          <a href="/posts/2">Ver Post</a> <!-- Link de exemplo para o segundo post -->
+        </div>
+        <div class="post">
+          <h2>Post 3</h2>
+          <p>Conteúdo do Post 3...</p>
+          <a href="/posts/3">Ver Post</a> <!-- Link de exemplo para o segundo post -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <!-- Conteúdo do rodapé aqui -->
+    <p>Rodapé do Blog</p>
+  </footer>
+</body>
+</html>
