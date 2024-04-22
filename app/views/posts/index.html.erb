@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+
+<h1 class="container text-center">Posts</h1>
+
+<% if Current.user %>
+<div class="container text-center">
+  <%= link_to "Novo Post", new_post_path, class: "btn btn-success my-3" %>
+</div>
+<% end %>
+
+<div id="posts" class="container">
+  <% @posts.each do |post| %>
+    <%= render post %>
+    <p class="text-center">
+      <%= link_to "Abrir post", post, class: "btn btn-primary mt-2" %>
+    </p>
+  <% end %>
+</div>
